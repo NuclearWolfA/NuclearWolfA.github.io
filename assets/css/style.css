@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-      font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 500;
    line-height:40px;
    
@@ -119,9 +119,9 @@ p {
 
 #header-section h2 {
 	color: white;
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: 900;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 }
 .down-icon {
      color:white;

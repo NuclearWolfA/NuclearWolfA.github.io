@@ -333,7 +333,11 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover; /* Ensures the image covers the 180px circle */
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
