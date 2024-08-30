@@ -218,4 +218,18 @@ color: #FFFFFF;
     padding: 10px 30px 10px 30px;
 }
 
+.img-margin-product {
+    width: 20px;
+    width: 100%;          /* Makes the image responsive */
+    margin-bottom: 15px;  /* Adds space below the image */
+    border-radius: 5px;   /* Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow */
+    transition: transform 0.3s ease;  /* Smooth zoom effect on hover */
+}
+
+.img-margin-product:hover {
+    transform: scale(1.05);  /* Slightly zooms in the image on hover */
+}
+
+
 
