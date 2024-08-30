@@ -85,6 +85,9 @@ p {
 .color-black {
     color:#000000;
 }
+.color-bluishgreen {
+    color:#0bd6aacf;
+}
 
 /* ==========================================================================
    HEADER SECTION
@@ -193,7 +196,7 @@ color: #FFFFFF;
     Product Section
     =========================================================================== */
     #products-section {
-        background: linear-gradient(135deg, #530056, #ff0084);
+        background: linear-gradient(135deg, #530056, #ff0084,#530056);
         color: #fff;
     }
     
