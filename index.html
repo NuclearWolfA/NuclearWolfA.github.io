@@ -415,7 +415,7 @@
             <div class="row">
                 <div class="col-md-12  col-sm-12 ">
                     <div class="col-md-6  " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                        <h3> My Contac Details</h3>
+                        <h3> My Contact Details</h3>
                         <hr />
                         <p>
                         271/A,<br />
@@ -424,7 +424,7 @@
                             <i class="fa fa-phone"></i> +94 77 299 6907<br />
                             <i class="material-icons" style="font-size:15px">email</i>   lakshantharoosha@gmail.com<br />
                             <a aria-label="Chat on WhatsApp" href="https://wa.me/+94772996907" target="_blank"> <img alt="Chat on WhatsApp" src="assets/img/whatsapp.png" width="200" />
-                            
+                            </a>
                             
                          
                         
@@ -434,35 +434,35 @@
                     <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
                         <h3>Drop a Line </h3>
                         <hr />
-                        <form>
+                        <form id="contactForm">
                             <div class="row">
                                 <div class="col-md-6 ">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
+                                        <input type="text" class="form-control" id="name" required="required" placeholder="Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
+                                        <input type="text" class="form-control" id="email" required="required" placeholder="Email address">
                                     </div>
                                 </div>
                             </div>
-                              <div class="row">
+                            <div class="row">
                                 <div class="col-md-6 ">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Subject">
+                                        <input type="text" class="form-control" id="subject" required="required" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-md-6 ">
                                     <div class="form-group">
-                                        <input type="text" class="form-control"  placeholder="Ref. (IF any)">
+                                        <input type="text" class="form-control" id="reference" placeholder="Ref. (IF any)">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 ">
                                     <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="3"  placeholder="Message"></textarea>
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary">Submit Request</button>
@@ -499,5 +499,7 @@
     <script src="assets/js/scrollReveal.js"></script>
        <!-- CUSTOM SCRIPT-->
     <script src="assets/js/custom.js"></script>
+    <!-- Whatsapp script-->
+     <script src="assets/js/whatsapp.js"></script>
 </body>
 </html>
