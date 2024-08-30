@@ -91,7 +91,7 @@ p {
    ========================================================================== */
 
 #header-section {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/header3.jpg) no-repeat center top;
 	margin-top: -20px;
 	padding-top:20px;
 	text-align:center;
@@ -132,7 +132,8 @@ p {
    ========================================================================== */
 
 #about-section {
-    background-color: #FAFAFA;
+    background: linear-gradient(135deg, #530056, #ff0084);
+        color: #fff;
    
 }
 
@@ -156,6 +157,9 @@ p {
 .color-pinterest {
      color:#cb2027;
 }
+.color-github{
+    color: #000;
+}
 /* ===========================================================
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
@@ -164,7 +168,7 @@ p {
 }
 
 .navbar-inverse {
-	background: #000000;
+	background: linear-gradient(135deg, #530056, #ff0084);
 border-color: #5D5B66;
 }
 
@@ -185,13 +189,22 @@ border-color: #5D5B66;
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
 }
+/*  ===========================================================================
+    Product Section
+    =========================================================================== */
+    #products-section {
+        background: linear-gradient(135deg, #530056, #ff0084);
+        color: #fff;
+    }
+    
 
 /* ==========================================================================
    CONTACT SECTION
    ========================================================================== */
 
 #contact-section {
-    background-color: #FAFAFA;
+    background: linear-gradient(135deg, #530056, #ff0084);
+        color: #fff;
 }
 /* ==========================================================================
    FOOTER SECTION
@@ -199,7 +212,7 @@ color: #FFFFFF;
    
 
 #footer {
-    background-color: #2F11C4; 
+    background-color: #530056; 
     color: #fff; 
     text-align: right; 
     padding: 10px 30px 10px 30px;
