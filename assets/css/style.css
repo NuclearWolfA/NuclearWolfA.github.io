@@ -86,7 +86,7 @@ p {
     color:#000000;
 }
 .color-bluishgreen {
-    color:#0bd6aacf;
+    color:#07BB00;
 }
 
 /* ==========================================================================
@@ -95,7 +95,7 @@ p {
 
 #header-section {
 	background: url(../img/header3.jpg) no-repeat center top;
-	margin-top: -20px;
+	margin-top: -60px;
 	padding-top:20px;
 	text-align:center;
 	background-position: center center;
@@ -135,7 +135,7 @@ p {
    ========================================================================== */
 
 #about-section {
-    background: linear-gradient(135deg, #530056, #ff0084);
+    background: #767474;
         color: #fff;
    
 }
@@ -170,10 +170,13 @@ p {
 	font-size: 14px;
 }
 
+
 .navbar-inverse {
-	background: linear-gradient(135deg, #530056, #ff0084);
-border-color: #5D5B66;
+        background: rgba(51, 50, 44, 0.8); /* #767474 with 50% transparency */
+        border-color: rgba(118, 116, 116, 0.5); /* Adjust border color transparency */
 }
+    
+
 
 .navbar-inverse .navbar-nav > .active > a {
 	background: #ffffff;
@@ -196,8 +199,8 @@ color: #FFFFFF;
     Product Section
     =========================================================================== */
     #products-section {
-        background: linear-gradient(135deg, #530056, #ff0084,#530056);
-        color: #fff;
+        background: #8d8b8b;
+        color: #000;
     }
     
 
@@ -206,7 +209,7 @@ color: #FFFFFF;
    ========================================================================== */
 
 #contact-section {
-    background: linear-gradient(135deg, #530056, #ff0084);
+    background: #767474;
         color: #fff;
 }
 /* ==========================================================================
